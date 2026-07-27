@@ -37,7 +37,7 @@ from dash import Dash, dcc, html, Input, Output, no_update
 # All paths are resolved relative to this script so nothing is machine-specific.
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Root that holds one subfolder per commodity, each containing a .zip.
-DEFAULT_BASE = os.path.join(HERE, "cpc2026")
+DEFAULT_BASE = os.path.join(HERE, "cpc2026/cpc2026")
 STATES_GEOJSON = os.path.join(HERE, "us_states.geojson")
 COUNTIES_GEOJSON = os.path.join(HERE, "counties-fips.json")
 
